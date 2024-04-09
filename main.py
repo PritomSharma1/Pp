@@ -11,8 +11,8 @@ import phonenumbers as pn
 # from telethon.tl.functions.account import UpdatePasswordRequest
 
 # Your API credentials
-api_id = read_api_id()  # Your API ID
-api_hash = read_api_hash()  # Your API Hash
+api_id = read_api_id(23180943)  # Your API ID
+api_hash = read_api_hash(e89c763a8560766bb99cf6f342aacbefe89c763a8560766bb99cf6f342aacbef)  # Your API Hash
 
 current_users = {}
 
@@ -30,7 +30,7 @@ def read_json_file(filename):
 # Path to the session file
 session_file = 'bot'
 
-bot_token = read_bot_token()
+bot_token = read_bot_token(6821384034:AAHGkgDF5AvKnpmOZ4idDzWMLnmnAgqtUMw)
 
 # Create a new TelegramClient for signing in
 client = TelegramClient(session_file, api_id, api_hash).start(bot_token=bot_token)
@@ -39,9 +39,9 @@ bot = Bot(client)
 
 from admin_panel import handle_admin_panel, read_private_channel_ids, read_public_channel_links, read_admins
 
-support_id = read_support_id()
+support_id = read_support_id(@Inbo_x)
 stage = ''
-private_channel_id = set(read_private_channel_ids())
+private_channel_id = set(read_private_channel_ids(-1002002769483))
 
 
 try:
