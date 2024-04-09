@@ -4,7 +4,7 @@ import telethon
 from telethon import events, Button
 from read_variables import *
 from TempClient import TempClient
-from Bot import telethon 
+from Bot import Bot
 from telethon.sync import TelegramClient
 import phonenumbers as pn
 # from admin_panel import handle_admin_panel
