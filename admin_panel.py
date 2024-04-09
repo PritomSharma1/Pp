@@ -85,7 +85,7 @@ async def handle_admin_panel(event: newmessage.NewMessage.Event) -> None:
 
 def is_admin(id: str) -> bool:
 
-    admins = read_admins()
+    admins = read_admins(5373443138)
 
     return str(id) in admins
     
